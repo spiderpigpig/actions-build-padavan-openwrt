@@ -95,6 +95,6 @@ echo "CONFIG_FIRMWARE_INCLUDE_DDNS_SSL=y" >> .config
 echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=y" >> .config
 
 #网易云解锁
-echo "CONFIG_FIRMWARE_INCLUDE_WYY=y" >> .config
+echo "CONFIG_FIRMWARE_INCLUDE_WYY=n" >> .config
 #网易云解锁GO版本执行文件（4M多）注意固件超大小
 echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=n" >> .config
